@@ -1,0 +1,21 @@
+/* styles.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+  }
+  
+  section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  
+  body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
